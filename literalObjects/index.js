@@ -20,6 +20,5 @@ const dog = {
         console.log('guauuu guauuuuu');
     }
 }
-
-console.log(dog);
+console.log(Object.entries(dog));
 dog.ladrar();

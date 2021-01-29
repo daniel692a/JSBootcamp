@@ -9,7 +9,10 @@ const oddAndEven = (numbers= [ 1, 2, 3, 4, 5 ]) => {
             oddNumbers.push(e);
         }
     })
-    return `Pares: ${evenNumbers.join(', ')}\nImpares: ${oddNumbers.join(', ')}`;
+    return {
+        evenNumbers,
+        oddNumbers
+    };
 }
 
 console.log(oddAndEven([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
